@@ -1,0 +1,100 @@
+
+body{
+    font-family: 'Gantari', sans-serif;
+    margin: 0%;
+    
+}    
+.header-section{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.281),black),url(IMG_6361+.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 70px;
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 8%;
+}
+p{
+    text-align: center;
+    margin-top: 0;
+    font-size: 20px;
+}
+.donate-button{
+    text-decoration: none;
+    background-color: yellow;
+    font-weight: 700;
+    padding: 15px 35px;
+    color: black;
+    border-radius: 5px;
+}
+.donate-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+.button{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: whitesmoke; 
+    padding: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    color: gray;
+}
+.button-200{
+    background-color: rgb(241, 212, 212);
+    border: 2px solid red;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+}
+.button-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+     
+}
+.input-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#input{
+    border: none;
+    text-underline-position: below;
+    width: 50%;
+    background-color: #fcfcfc;
+    border: 0;
+    border-bottom: 2px solid lightgrey;
+    padding: 0;
+    margin-bottom: 30px;
+}
+label{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(177, 177, 177);
+}
+.section-2{
+    padding-bottom: 80px;
+}
+
+
+
+
+
