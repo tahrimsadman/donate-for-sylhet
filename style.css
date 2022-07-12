@@ -93,8 +93,60 @@ label{
 .section-2{
     padding-bottom: 80px;
 }
-
-
-
-
-
+.donate-plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+   
+}
+.food{
+    background-color: pink;
+    padding-top: 8%;
+    padding-bottom: 4%;
+    padding-right: 6%;
+    padding-left: 2%;
+    border-radius: 5px;
+}
+.shelter{
+    background-color: lightblue;
+    padding-top: 8%;
+    padding-bottom: 4%;
+    padding-right: 6%;
+    padding-left: 2%;
+    border-radius: 5px;
+}
+.education{
+    background-color: lightgreen;
+    padding-top: 8%;
+    padding-bottom: 4%;
+    padding-right: 6%;
+    padding-left: 2%;
+    border-radius: 5px;
+}
+.facilities{
+    text-align: left;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    color: orangered;
+}
+.be-humble{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.footer-paragraph{
+    color: white;
+    font-size: small;
+}
