@@ -105,35 +105,81 @@ label{
     margin-bottom: 2%;
     margin-left: 10%;
     margin-right: 10%;
+  
     
    
 }
-.food{
-    background-color: pink;
-    padding-top: 8%;
+.food-parent{
+    background-color: rgb(245, 212, 217);
+    padding-top: 6%;
     padding-bottom: 4%;
     padding-right: 6%;
     padding-left: 2%;
     border-radius: 5px;
+    width: 50%;
+    margin: 1%;
 }
-.shelter{
-    background-color: lightblue;
-    padding-top: 8%;
+.shelter-parent{
+    background-color: rgb(195, 232, 245);
+    padding-top: 6%;
     padding-bottom: 4%;
     padding-right: 6%;
     padding-left: 2%;
     border-radius: 5px;
+    width: 50%;
+    margin: 1%;
 }
-.education{
-    background-color: lightgreen;
-    padding-top: 8%;
+.education-parent{
+    background-color: rgb(191, 247, 191);
+    padding-top: 6%;
     padding-bottom: 4%;
     padding-right: 6%;
     padding-left: 2%;
     border-radius: 5px;
+    width: 50%;
+    margin: 1%;
+}
+img{
+    width: 50px;
+    height: 50px;
 }
 .facilities{
     text-align: left;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.email{
+    border-radius: 4px;
+    background-color: bisque;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 40px;  
+}
+button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: tomato;
 }
 .footer{
     text-align: center;
@@ -148,5 +194,5 @@ label{
 }
 .footer-paragraph{
     color: white;
-    font-size: small;
+    font-size: 15px;
 }
